@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+    /* you can use a more complete font-family from VSCode as well */
+    font-family: arial;
+}
+
+.header {
+    background-color: rgb(22, 2, 34);
+    padding: 1em;
+}
+
+.main {
+    background-color : rgb(46, 13, 40);
+}
+
+.footer {
+    background-color: rgb(162, 114, 206);
+    padding: 1em;
+}
+
+.side-bar {
+    float: left;
+    width: 25%;
+    padding: 1em;
+}
+.content {
+    padding: 1em;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.menu li {
+ list-style: none;
+ margin: 0em;
+ padding: 0em;
+}
+
+.menu li {
+        list-style: none;
+    }
+    
+    
+    .menu a {
+        padding: 1em;
+        display: block;
+        width: 6em;
+    }
+
+    .menu a:hover {
+        background-color : rgb(196, 180, 37);
+    }
+
+
+@media(min-width:800px){
+    .side-bar {
+        float: left;
+        width: 25%;
+    }
+}
+
+@media(min-width:800px){
+    .menu {
+        display: flex;
+    }
+}
+</style>
+
+<body>
+    <div class="container" >
+        <div class="header" >
+            <h1>My Space</h1>
+            <ul class="menu">
+                <li><a href="https://www.ngwenya.co.za/gallery.php" >My favourite lodge</a></li>
+                
+                <li><a href="https://nicholassparks.com/" >My favourate Novelist</a></li>
+                <li><a href="https://www.uj.ac.za/" >Current studies</a></li>
+            </ul>
+        </div>
+        <div class="main clearfix" >
+            <div class="side-bar" >
+                <h2>My Space</h2>
+                <p>Thabile is a young ethusiastic pan-african, currently persuing her postgradute studies in the field of Tourismf and Hospitality Management. This is a space where she share her favourite destinations, hobbies and general stuff. </p>
+            </div>
+            <div class="content" >
+                <h2>Future</h2>
+                <p>I am aspiring business woman who doesn't really want to spend a lot of years working, preferably i would like to retire at the age 40. Currently i am working to hard, investing so i can continue living a soft life even after i have stopped working. So i thought i should share with you my vision for my retiment home, i wount want to say much. so take your time and admire the beauty of the image. Also i took a moment to add my favourite lodge, for more information click on the links above</p>
+                 <img src="My-retirement-home.png" width="300" srcset="">
+                 <img src="My favorate lodge.png" width="300" srcset="">
+                  
+            </div>
+        </div>
+        <div class="footer" >
+            <h4>@President Thabi inc</h4>
+        </div>
+    </div>
+</body>
+</html>
